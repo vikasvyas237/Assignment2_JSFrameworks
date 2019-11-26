@@ -2,14 +2,18 @@
   "name": "vikas",
   "version": "0.0.0",
   "private": true,
+  
   "scripts": {
     "start": "node app",
     "dev": "node app"
   },
+  
   "description": "Vikas",
+  
   "author": {
     "name": ""
   },
+  
   "dependencies": {
     "body-parser": "^1.15.0",
     "cookie-parser": "^1.4.0",
@@ -24,8 +28,8 @@
     "pug": "^2.0.0-beta6",
     "serve-favicon": "^2.3.0"
   },
+  
   "devDependencies": {
     "nodemon": "^1.19.4"
   }
-
 }
