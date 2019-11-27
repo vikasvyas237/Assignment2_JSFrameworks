@@ -12,6 +12,8 @@ var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 var User = require('./models/user');
 
+//connect to the database
+
 mongoose.connect(
     'mongodb+srv://Vikas:vikasvyas_@cluster0-i9hxp.mongodb.net/test?retryWrites=true&w=majority',
 
